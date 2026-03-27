@@ -14,3 +14,6 @@ prisma/*.db-journal
 Thumbs.db
 
 /generated/prisma
+
+# Bases de datos
+*.db
