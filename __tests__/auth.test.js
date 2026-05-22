@@ -13,6 +13,7 @@
 const request = require('supertest');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
+process.env.JWT_SECRET = process.env.JWT_SECRET || 'test-jwt-secret';
 
 // ============================================
 // CONFIGURACIÓN DE MOCKS
